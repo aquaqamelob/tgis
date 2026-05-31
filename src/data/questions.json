@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "w1z1",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące grafu prostego.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest to graf bez pętli i bez krawędzi wielokrotnych.",
+        "correct": true
+      },
+      {
+        "text": "Każdy wierzchołek takiego grafu ma stopień równy 1.",
+        "correct": false
+      },
+      {
+        "text": "Jego macierz sąsiedztw jest macierzą zero-jedynkową.",
+        "correct": true
+      },
+      {
+        "text": "Zawiera krawędzie wielokrotne.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z2",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące pseudografu.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest to graf posiadający pętlę.",
+        "correct": true
+      },
+      {
+        "text": "Jest synonimem grafu prostego.",
+        "correct": false
+      },
+      {
+        "text": "Każdą pętlę liczymy w nim dwukrotnie przy wyznaczaniu stopnia wierzchołka.",
+        "correct": true
+      },
+      {
+        "text": "Nie dopuszcza w nim się żadnych krawędzi.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z3",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące lematu o uściskach dłoni (L. Euler).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Podwojona liczba krawędzi grafu jest równa sumie stopni wszystkich wierzchołków.",
+        "correct": true
+      },
+      {
+        "text": "Suma stopni wszystkich wierzchołków jest równa liczbie krawędzi grafu.",
+        "correct": false
+      },
+      {
+        "text": "Z lematu wynika, że liczba wierzchołków o nieparzystym stopniu jest parzysta.",
+        "correct": true
+      },
+      {
+        "text": "Każdy graf ma parzystą liczbę krawędzi niezależnie od liczby wierzchołków.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z4",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące zbioru wierzchołków stopnia nieparzystego w dowolnym grafie.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Liczba takich wierzchołków jest zawsze parzysta.",
+        "correct": true
+      },
+      {
+        "text": "Liczba takich wierzchołków jest zawsze nieparzysta.",
+        "correct": false
+      },
+      {
+        "text": "Stwierdzenie to udowadnia się przy pomocy lematu o uściskach dłoni.",
+        "correct": true
+      },
+      {
+        "text": "Liczba takich wierzchołków jest zawsze równa liczbie krawędzi grafu.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z5",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące pętli.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Pętla zwiększa stopień wierzchołka o dwa.",
+        "correct": true
+      },
+      {
+        "text": "Pętla nie wpływaja na stopień wierzchołka.",
+        "correct": false
+      },
+      {
+        "text": "Pętla to krawędź xx.",
+        "correct": true
+      },
+      {
+        "text": "Pętla zwiększa stopień wierzchołka o jeden.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z6",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Wierzchołki x i y są sąsiednie, gdy xy∈E(G).",
+        "correct": true
+      },
+      {
+        "text": "Wierzchołki x i y są incydentne, gdy mają identyczny stopień.",
+        "correct": false
+      },
+      {
+        "text": "Wierzchołki x i y są incydentne z krawędzią xy.",
+        "correct": true
+      },
+      {
+        "text": "Dwie krawędzie są sąsiednie, gdy mają równe wagi.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z7",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące macierzy sąsiedztw dowolnego prostego grafu nieskierowanego.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest to zawsze macierz symetryczna.",
+        "correct": true
+      },
+      {
+        "text": "Jest to zawsze macierz antysymetryczna.",
+        "correct": false
+      },
+      {
+        "text": "Sumując odpowiednie wiersze lub kolumny odczytujemy stopnie wierzchołków.",
+        "correct": true
+      },
+      {
+        "text": "Sposób ponumerowania wierzchołków wpływa na własności macierzy.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z8",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące macierzy incydencji B=[bij ]n×m zadanego grafu.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Wiersze odpowiadają wierzchołkom, a kolumny krawędziom.",
+        "correct": true
+      },
+      {
+        "text": "Zarówno wiersze, jak i kolumny odpowiadają wyłącznie wierzchołkom grafu.",
+        "correct": false
+      },
+      {
+        "text": "bij = 1 wtedy i tylko wtedy, gdy wierzchołek xi jest incydentny z krawędzią ej.",
+        "correct": true
+      },
+      {
+        "text": "Wiersze odpowiadają krawędziom, a kolumny wierzchołkom.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z9",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące macierzy sąsiedztw grafu prostego.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest to macierz zero-jedynkowa.",
+        "correct": true
+      },
+      {
+        "text": "Zawiera ujemne wartości dla par wierzchołków, które nie są sąsiednie.",
+        "correct": false
+      },
+      {
+        "text": "aij = 1 wtedy i tylko wtedy, gdy xixj jest krawędzią.",
+        "correct": true
+      },
+      {
+        "text": "aij = 0 wtedy i tylko wtedy, gdy xixj jest pętlą.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w1z10",
+    "week": "W1",
+    "weekLabel": "Wykład 1 – podstawy grafu",
+    "prompt": "Wskaż zdania prawdziwe dotyczące interpretacji geometrycznej grafu i łuku Jordana.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Krawędzi xy odpowiada dowolny łuk Jordana łączący punkty x i y.",
+        "correct": true
+      },
+      {
+        "text": "Krawędzi odpowiada zawsze odcinek linii prostej między dwoma wierzchołkami.",
+        "correct": false
+      },
+      {
+        "text": "Łuk Jordana jest dany funkcjami ciągłymi i nie ma punktów wielokrotnych.",
+        "correct": true
+      },
+      {
+        "text": "Łuk Jordana to krzywa, która przecina samą siebie co najmniej raz.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z1",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące podgrafu grafu G indukowanego przez zbiór V0 ⊆V(G).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest to maksymalny w sensie zawierania podgraf grafu G, którego zbiorem wierzchołków jest V0.",
+        "correct": true
+      },
+      {
+        "text": "Powstaje przez usunięcie z G wszystkich wierzchołków ze zbioru V0.",
+        "correct": false
+      },
+      {
+        "text": "Powstaje przez usunięcie z G wszystkich wierzchołków ze zbioru V(G) \\V0.",
+        "correct": true
+      },
+      {
+        "text": "Zawiera wszystkie wierzchołki grafu G oraz wybrane krawędzie.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z2",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące bazy grafu G.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Bazą jest każdy podgraf indukowany taki, że dowolna krawędź grafu jest incydentna z co najmniej jednym wierzchołkiem z bazy.",
+        "correct": true
+      },
+      {
+        "text": "Bazą nazywamy podgraf, w którym wszystkie wierzchołki mają stopień parzysty.",
+        "correct": false
+      },
+      {
+        "text": "Podgraf indukowany ⟨Y⟩G jest bazą G wtedy i tylko wtedy, gdy E(⟨V(G) \\ Y⟩) = ∅.",
+        "correct": true
+      },
+      {
+        "text": "Bazą jest każdy podgraf indukowany, w którym Y= V(G).",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z3",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące praw arytmetyki boolowskiej wykorzystywanych przy wyznaczaniu baz minimalnych.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "a+ a·b= a.",
+        "correct": true
+      },
+      {
+        "text": "a+ a= 2a.",
+        "correct": false
+      },
+      {
+        "text": "a·a= a.",
+        "correct": true
+      },
+      {
+        "text": "a·b= 1.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z4",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące podgrafu rozpinającego grafu G.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest dowolnym podgrafem G zawierającym wszystkie wierzchołki G.",
+        "correct": true
+      },
+      {
+        "text": "Zawiera wszystkie krawędzie G, ale tylko część jego wierzchołków.",
+        "correct": false
+      },
+      {
+        "text": "Powstaje przez usuwanie z G wybranych krawędzi (bez usuwania wierzchołków).",
+        "correct": true
+      },
+      {
+        "text": "Jest zawsze grafem pełnym niezależnie od budowy G.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z5",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące grafów regularnych.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Graf Kn jest (n−1)-regularny.",
+        "correct": true
+      },
+      {
+        "text": "Oba grafy Kn i Cn są n-regularne.",
+        "correct": false
+      },
+      {
+        "text": "Graf Cn jest 2-regularny.",
+        "correct": true
+      },
+      {
+        "text": "Graf Kn jest 2-regularny, a Cn jest (n−1)-regularny.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z6",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące grafów K1,n.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Nazywamy je gwiazdami.",
+        "correct": true
+      },
+      {
+        "text": "Są to grafy kubiczne, czyli 3-regularne.",
+        "correct": false
+      },
+      {
+        "text": "Są szczególnym przypadkiem grafów pełnych dwudzielnych Km,n.",
+        "correct": true
+      },
+      {
+        "text": "Powstają jako złączenie dwóch cykli o tej samej liczbie wierzchołków.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z7",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące dopełnienia G grafu G.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Zbiór wierzchołków G jest taki sam jak zbiór wierzchołków G.",
+        "correct": true
+      },
+      {
+        "text": "Powstaje przez usunięcie z Gwszystkich wierzchołków o stopniu nieparzystym.",
+        "correct": false
+      },
+      {
+        "text": "xy∈E(G) wtedy i tylko wtedy, gdy xy / ∈E(G).",
+        "correct": true
+      },
+      {
+        "text": "Powstaje przez zamianę wierzchołków na krawędzie i odwrotnie.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z8",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące grafu kołowego (koła) Wn.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest izomorficzny z grafem Cn−1 + N1.",
+        "correct": true
+      },
+      {
+        "text": "Powstaje z dwóch cykli o n wierzchołkach połączonych wspólnym wierzchołkiem.",
+        "correct": false
+      },
+      {
+        "text": "Jest grafem Hamiltona.",
+        "correct": true
+      },
+      {
+        "text": "Jest sumą dwóch rozłącznych grafów pełnych.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z9",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące operacji usunięcia wierzchołka z danego grafu.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Razem z wierzchołkiem usuwa się wszystkie krawędzie z nim incydentne.",
+        "correct": true
+      },
+      {
+        "text": "Krawędzie incydentne z usuwanym wierzchołkiem łączą się z sąsiednimi wierzchołkami.",
+        "correct": false
+      },
+      {
+        "text": "Wynikowy graf jest podgrafem grafu pierwotnego.",
+        "correct": true
+      },
+      {
+        "text": "Krawędzie usuwanego wierzchołka pozostają w grafie jako pętle.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w2z10",
+    "week": "W2",
+    "weekLabel": "Wykład 2 – podgrafy i operacje",
+    "prompt": "Wskaż zdania prawdziwe dotyczące izomorfizmu grafów G i H.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Istnieje bijekcja f : V(G)→V(H) taka, że xy ∈E(G) wtedy i tylko wtedy, gdy f(x)f(y) ∈E(H).",
+        "correct": true
+      },
+      {
+        "text": "Fakt izomorfizmu oznaczamy symbolem G □ H.",
+        "correct": false
+      },
+      {
+        "text": "Fakt izomorfizmu oznaczamy symbolem G∼ = H.",
+        "correct": true
+      },
+      {
+        "text": "Oba grafy dają się narysować na płaszczyźnie bez przecinających się krawędzi.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z1",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące drogi i jej rodzajów w grafie.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Drogą elementarną nazywamy drogę, w której żaden wierzchołek się nie powtarza.",
+        "correct": true
+      },
+      {
+        "text": "Drogą elementarną nazywamy drogę długości co najwyżej 3.",
+        "correct": false
+      },
+      {
+        "text": "Drogą prostą nazywamy drogę, w której żadna krawędź się nie powtarza.",
+        "correct": true
+      },
+      {
+        "text": "Drogą elementarną nazywamy drogę, w której każda krawędź powtarza się co najmniej raz.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z2",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące długości drogi i cyklu w grafie.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Długość drogi to liczba krawędzi tej drogi.",
+        "correct": true
+      },
+      {
+        "text": "Długość drogi to suma stopni wierzchołków tej drogi.",
+        "correct": false
+      },
+      {
+        "text": "Długość drogi oznaczamy l(P), a długość cyklu l(C).",
+        "correct": true
+      },
+      {
+        "text": "Długość cyklu to liczba komponent spójności grafu.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z3",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące cykli w grafie dwudzielnym.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Każdy cykl w grafie dwudzielnym ma długość parzystą.",
+        "correct": true
+      },
+      {
+        "text": "Każdy cykl w grafie dwudzielnym ma długość nieparzystą.",
+        "correct": false
+      },
+      {
+        "text": "Graf K2n,2m, n,m∈N posiada cykl Eulera.",
+        "correct": true
+      },
+      {
+        "text": "Każdy graf zawierający cykl parzysty jest dwudzielny.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z4",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące macierzy Ak, gdzie A jest macierzą sąsiedztw grafu G.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Element a(k) ij jest równy liczbie różnych dróg długości k łączących wierzchołki xi i xj.",
+        "correct": true
+      },
+      {
+        "text": "Element a(k) ij jest długością najkrótszej drogi pomiędzy xi a xj.",
+        "correct": false
+      },
+      {
+        "text": "Macierz Ak pozwala wyznaczyć liczbę dróg długości k między dowolną parą wierzchołków.",
+        "correct": true
+      },
+      {
+        "text": "Element a(k) ij jest stopniem wierzchołka xi podniesionym do potęgi k.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z5",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące średnicy grafu.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Średnicą grafu G nazywamy maxx,y∈V (G) dG(x,y).",
+        "correct": true
+      },
+      {
+        "text": "Średnicą nazywamy średnią arytmetyczną stopni wszystkich wierzchołków.",
+        "correct": false
+      },
+      {
+        "text": "Średnicę oznaczamy symbolem diam(G).",
+        "correct": true
+      },
+      {
+        "text": "Średnica to liczba wierzchołków w największej komponencie spójności.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z6",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące r-tej potęgi Gr grafu G.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "xy∈E(Gr) wtedy i tylko wtedy, gdy dG(x,y) r.",
+        "correct": true
+      },
+      {
+        "text": "Zawsze, gdy r jest równe liczbie wierzchołków grafu, Gr jest pełny.",
+        "correct": false
+      },
+      {
+        "text": "Jeżeli diam(G) r, to graf Gr jest grafem pełnym.",
+        "correct": true
+      },
+      {
+        "text": "Gr jest grafem pełnym tylko wtedy, gdy oryginalny graf Gjest grafem bezkrawędziowym.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z7",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące rzędu grafu R(G).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jest to liczba wierzchołków największej komponenty spójności grafu.",
+        "correct": true
+      },
+      {
+        "text": "Jest to liczba wszystkich komponent spójności grafu.",
+        "correct": false
+      },
+      {
+        "text": "Dla grafu spójnego R(G) = |V(G)|.",
+        "correct": true
+      },
+      {
+        "text": "Jest to maksymalny stopień wierzchołka występujący w grafie.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z8",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące badania spójności grafu o |V(G)| wierzchołkach przy użyciu macierzy sąsiedztw A.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Obliczamy sumę |V (G)|−1 i=1 Ai; jeśli wszystkie jej elementy są niezerowe, to graf jest spójny.",
+        "correct": true
+      },
+      {
+        "text": "Graf jest spójny, gdy wyznacznik macierzy Ai jest większy od zera.",
+        "correct": false
+      },
+      {
+        "text": "Element ak i,j macierzy Ak informuje o liczbie dróg długości k z wierzchołka i do j.",
+        "correct": true
+      },
+      {
+        "text": "Graf jest spójny tylko wtedy, gdy macierz Anie zawiera żadnych jedynek poza przekątną.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w3z9",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania fałszywe dotyczące cyklu Eulera i grafu Eulera.",
+    "pickFalse": true,
+    "choices": [
+      {
+        "text": "Grafem Eulera nazywamy graf, w którym istnieje cykl prosty zawierający wszystkie krawędzie grafu.",
+        "correct": false
+      },
+      {
+        "text": "Cykl Eulera to cykl elementarny zawierający wszystkie wierzchołki grafu.",
+        "correct": true
+      },
+      {
+        "text": "Cyklem Eulera nazywamy cykl prosty zawierający wszystkie krawędzie grafu.",
+        "correct": false
+      },
+      {
+        "text": "Cykl Eulera to cykl o najmniejszej możliwej sumie wag krawędzi.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "w3z10",
+    "week": "W3",
+    "weekLabel": "Wykład 3 – drogi, spójność, Euler",
+    "prompt": "Wskaż zdania prawdziwe dotyczące twierdzenia L. Eulera o grafach Eulera.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Spójny graf jest grafem Eulera wtedy i tylko wtedy, gdy każdy jego wierzchołek ma stopień parzysty.",
+        "correct": true
+      },
+      {
+        "text": "Spójny graf jest grafem Eulera wtedy, gdy zawiera co najmniej jeden wierzchołek stopnia nieparzystego.",
+        "correct": false
+      },
+      {
+        "text": "Twierdzenie wymaga zarówno spójności grafu, jak i parzystości stopni wszystkich wierzchołków.",
+        "correct": true
+      },
+      {
+        "text": "Każdy graf dwudzielny zawierający cykle parzyste jest grafem Eulera.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z1",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące pojęć drzewa i lasu.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Drzewem nazywamy spójny graf bez cykli.",
+        "correct": true
+      },
+      {
+        "text": "Las to spójny graf posiadający co najmniej jeden cykl.",
+        "correct": false
+      },
+      {
+        "text": "Lasem nazywamy graf bez cykli.",
+        "correct": true
+      },
+      {
+        "text": "Lasem nazywamy graf, w którym każdy wierzchołek ma stopień równy 1.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z2",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące warunków równoważnych stwierdzeniu, że graf T o n wierzchołkach jest drzewem.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "T nie zawiera cykli i ma n−1 krawędzi.",
+        "correct": true
+      },
+      {
+        "text": "Pomiędzy dowolnymi dwoma wierzchołkami istnieją dokładnie dwie różne drogi.",
+        "correct": false
+      },
+      {
+        "text": "T jest spójny i ma n−1 krawędzi.",
+        "correct": true
+      },
+      {
+        "text": "T jest spójny i każda jego krawędź ma równą wagę.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z3",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące mostu w grafie.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Mostem nazywamy krawędź, której usunięcie rozspaja graf (daje graf niespójny).",
+        "correct": true
+      },
+      {
+        "text": "Mostem nazywamy każdą krawędź incydentną z liściem.",
+        "correct": false
+      },
+      {
+        "text": "W drzewie każda krawędź jest mostem.",
+        "correct": true
+      },
+      {
+        "text": "Most to synonim krawędzi lekkiej z algorytmu Kruskala.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z4",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące drzew.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Drzewa są grafami dwudzielnymi.",
+        "correct": true
+      },
+      {
+        "text": "Drzewo to graf spójny z jednym cyklem.",
+        "correct": false
+      },
+      {
+        "text": "Drzewo to graf spójny bez cykli.",
+        "correct": true
+      },
+      {
+        "text": "Drzewa są dwudzielne, gdyż liczba ich wierzchołków jest zawsze parzysta.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z5",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące kodu Prüfera dla drzewa o n wierzchołkach.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Kod ma długość n−2.",
+        "correct": true
+      },
+      {
+        "text": "Kod ma długość n−1.",
+        "correct": false
+      },
+      {
+        "text": "Procedurę tworzenia kodu kończymy, gdy otrzymamy drzewo o jednej krawędzi.",
+        "correct": true
+      },
+      {
+        "text": "Kod ma długość 2n−1.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z6",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące kroku tworzenia kodu Prüfera.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Znajdujemy wierzchołek stopnia 1 o najmniejszym numerze.",
+        "correct": true
+      },
+      {
+        "text": "Sortujemy wszystkie krawędzie drzewa malejąco względem wag.",
+        "correct": false
+      },
+      {
+        "text": "Numer drugiego wierzchołka incydentnego ze skreślaną krawędzią zapisujemy jako kolejny element kodu.",
+        "correct": true
+      },
+      {
+        "text": "Wybieramy wierzchołek o największym stopniu i zapisujemy jego sąsiadów.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z7",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące zliczania drzew rozpinających.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Liczba drzew rozpinających grafu G jest równa dopełnieniu algebraicznemu dowolnego elementu macierzy M.",
+        "correct": true
+      },
+      {
+        "text": "Wyznacznik macierzy M jest wagą minimalnego drzewa rozpinającego.",
+        "correct": false
+      },
+      {
+        "text": "Liczba różnych oznakowanych n-wierzchołkowych drzew wynosi nn−2 .",
+        "correct": true
+      },
+      {
+        "text": "Twierdzenie służy do znajdowania długości najkrótszej ścieżki w grafie.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z8",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące minimalnego drzewa rozpinającego (MST).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Gdy funkcja wagowa jest różnowartościowa, graf ma dokładnie jedno MST.",
+        "correct": true
+      },
+      {
+        "text": "Każdy graf ma zawsze dokładnie jedno MST, niezależnie od funkcji wagowej.",
+        "correct": false
+      },
+      {
+        "text": "Wagą drzewa rozpinającego jest suma wag wszystkich jego krawędzi: w(T) = xy∈E(T ) w(xy).",
+        "correct": true
+      },
+      {
+        "text": "MST istnieje wyłącznie wtedy, gdy graf nie zawiera ani jednego mostu.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z9",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące krawędzi lekkiej i bezpiecznej w minimalnym drzewie rozpinającym.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Krawędzią lekką jest krawędź o najmniejszej wadze spośród krawędzi krzyżujących się z przekrojem.",
+        "correct": true
+      },
+      {
+        "text": "Krawędzią lekką nazywamy każdą krawędź incydentną z korzeniem drzewa.",
+        "correct": false
+      },
+      {
+        "text": "Krawędź lekka krzyżująca się z przekrojem (V(T′),V(G) \\V(T′)) jest krawędzią bezpieczną dla MST.",
+        "correct": true
+      },
+      {
+        "text": "Dla danego przekroju zawsze istnieje dokładnie jedna krawędź lekka.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w4z10",
+    "week": "W4",
+    "weekLabel": "Wykład 4 – drzewa i MST",
+    "prompt": "Wskaż zdania prawdziwe dotyczące strategii algorytmów Prima i Kruskala.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "W algorytmie Prima konstruowane drzewo rozpinające jest zawsze spójne; konstrukcję rozpoczyna się od dowolnie wybranego wierzchołka.",
+        "correct": true
+      },
+      {
+        "text": "Algorytm Prima dopuszcza powstawanie lokalnych cykli, które usuwane są na końcu.",
+        "correct": false
+      },
+      {
+        "text": "W algorytmie Kruskala krawędzie sortuje się niemalejąco względem wag, a następnie scala częściowe drzewa.",
+        "correct": true
+      },
+      {
+        "text": "W algorytmie Kruskala konstruowane drzewo rozpinające jest zawsze spójne; konstrukcję rozpoczyna się od dowolnie wybranego wierzchołka.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z1",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące zbioru niezależnego S ⊆ V(G).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Dla każdej pary x,y∈S zachodzi xy / ∈E(G).",
+        "correct": true
+      },
+      {
+        "text": "Każdy wierzchołek zbioru S jest incydentny z co najmniej dwiema krawędziami.",
+        "correct": false
+      },
+      {
+        "text": "Każdy podzbiór jednowierzchołkowy oraz zbiór pusty są zbiorami niezależnymi.",
+        "correct": true
+      },
+      {
+        "text": "Żadne dwie krawędzie zbioru S nie mają wspólnego wierzchołka.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z2",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące liczb niezależności grafu G.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Dolna liczba niezależności i(G) jest mocą najmniejszego maksymalnego zbioru niezależnego.",
+        "correct": true
+      },
+      {
+        "text": "i(G) to liczba wszystkich jednoelementowych zbiorów niezależnych grafu.",
+        "correct": false
+      },
+      {
+        "text": "Górna liczba niezależności α(G) to liczba elementów największego zbioru niezależnego grafu G.",
+        "correct": true
+      },
+      {
+        "text": "Każdy maksymalny zbiór niezależny jest jednocześnie największy.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z3",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące boolowskiej metody wyznaczania maksymalnych zbiorów niezależnych.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Dla każdej krawędzi ab∈E(G) tworzymy czynnik (a+b) w funkcji boolowskiej.",
+        "correct": true
+      },
+      {
+        "text": "Suma boolowska wszystkich wierzchołków bezpośrednio daje największy zbiór niezależny.",
+        "correct": false
+      },
+      {
+        "text": "Jeżeli B ⊂V(G) indukuje bazę minimalną grafu G, to V(G) \\B jest maksymalnym zbiorem niezależnym.",
+        "correct": true
+      },
+      {
+        "text": "Iloczyn boolowski krawędzi tworzy bezpośrednio skojarzenie maksymalne.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z4",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące liczby zbiorów niezależnych σ(Pn) w ścieżce n-wierzchołkowej.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "σ(Pn) = Fn, gdzie (Fn) jest ciągiem Fibonacciego o warunkach początkowych F1 = 2, F2 = 3.",
+        "correct": true
+      },
+      {
+        "text": "σ(Pn) = n!.",
+        "correct": false
+      },
+      {
+        "text": "Dowód opiera się na rozważeniu dwóch przypadków: xn / ∈S oraz xn ∈S.",
+        "correct": true
+      },
+      {
+        "text": "σ(Pn) = 2n −1.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z5",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące skojarzenia M ⊆E(G).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Dowolne dwie krawędzie ze zbioru M nie są sąsiednie.",
+        "correct": true
+      },
+      {
+        "text": "Jest to zbiór wierzchołków pokrywających wszystkie krawędzie grafu.",
+        "correct": false
+      },
+      {
+        "text": "Wierzchołki incydentne z krawędzią należącą do M nazywamy skojarzonymi, a pozostałe wolnymi.",
+        "correct": true
+      },
+      {
+        "text": "Jest to zbiór wierzchołków izolowanych, do których nie prowadzi żadna krawędź.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z6",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące systemu reprezentantów dla ciągu podzbiorów.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jego znajdowanie jest równoważne zagadnieniu znajdowania pełnego skojarzenia w odpowiednim grafie dwudzielnym.",
+        "correct": true
+      },
+      {
+        "text": "Sprowadza się do znalezienia cyklu Eulera w grafie dwudzielnym.",
+        "correct": false
+      },
+      {
+        "text": "Pełne skojarzenie z V1 do V2 to takie, w którym każdy wierzchołek z V1 jest incydentny z krawędzią należącą do skojarzenia.",
+        "correct": true
+      },
+      {
+        "text": "Jest równoważne wyznaczaniu najmniejszego zbioru niezależnego w grafie.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z7",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące dróg naprzemiennych i powiększających względem skojarzenia M.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Droga powiększająca to droga naprzemienna, której pierwszy i ostatni wierzchołek są wierzchołkami wolnymi.",
+        "correct": true
+      },
+      {
+        "text": "Drogą powiększającą jest dowolny cykl o nieparzystej długości w grafie.",
+        "correct": false
+      },
+      {
+        "text": "W drodze naprzemiennej krawędzie na przemian należą i nie należą do skojarzenia M.",
+        "correct": true
+      },
+      {
+        "text": "Pierwszy i ostatni wierzchołek drogi powiększającej muszą być wierzchołkami skojarzonymi.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z8",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące różnicy symetrycznej M⊕ E(P) skojarzenia M i drogi powiększającej P.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "M ⊕E(P) = (M \\E(P)) ∪(E(P) \\M).",
+        "correct": true
+      },
+      {
+        "text": "Wynikiem jest największy niezależny zbiór wierzchołków badanego podgrafu.",
+        "correct": false
+      },
+      {
+        "text": "M ⊕E(P) jest skojarzeniem o liczności |M ⊕E(P)|= |M|+ 1.",
+        "correct": true
+      },
+      {
+        "text": "Wynikiem jest droga naprzemienna o długości mniejszej o 1 niż P.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z9",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące pokrycia wierzchołkowego V0 ⊆ V(G).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Każda krawędź grafu G jest incydentna z co najmniej jednym wierzchołkiem ze zbioru V0.",
+        "correct": true
+      },
+      {
+        "text": "Żadne dwa wierzchołki ze zbioru V0 nie są połączone krawędzią.",
+        "correct": false
+      },
+      {
+        "text": "Minimalne pokrycie wierzchołkowe jest ściśle powiązane z maksymalnym skojarzeniem w grafach dwudzielnych.",
+        "correct": true
+      },
+      {
+        "text": "Zbiór V0 zawiera wszystkie liście (wierzchołki stopnia 1) danego grafu.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w5z10",
+    "week": "W5",
+    "weekLabel": "Wykład 5 – niezależność i skojarzenia",
+    "prompt": "Wskaż zdania prawdziwe dotyczące twierdzenia Königa z 1931 roku.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Twierdzenie dotyczy grafów dwudzielnych.",
+        "correct": true
+      },
+      {
+        "text": "Twierdzenie zachodzi dla dowolnego grafu, niekoniecznie dwudzielnego.",
+        "correct": false
+      },
+      {
+        "text": "Liczba wierzchołków najmniejszego pokrycia wierzchołkowego jest równa liczbie krawędzi największego skojarzenia.",
+        "correct": true
+      },
+      {
+        "text": "Rozmiar największego zbioru niezależnego jest równy podwojonej liczbie krawędzi maksymalnego skojarzenia.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z1",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące grafów planarnych i płaskich.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Grafem planarnym nazywamy graf, który można narysować na płaszczyźnie tak, aby żadne dwie krawędzie się nie przecinały.",
+        "correct": true
+      },
+      {
+        "text": "Graf planarny to graf, w którym każdy wierzchołek ma stopień co najmniej 6.",
+        "correct": false
+      },
+      {
+        "text": "Graf, który na płaszczyźnie jest narysowany bez przecięć krawędzi, nazywamy grafem płaskim.",
+        "correct": true
+      },
+      {
+        "text": "Graf planarny to graf, który nie ma żadnych krawędzi.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z2",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Graf K3,3 jest nieplanarny.",
+        "correct": true
+      },
+      {
+        "text": "Graf nieplanarny to graf, który nie ma wierzchołków stopnia 1.",
+        "correct": false
+      },
+      {
+        "text": "Graf K5 jest nieplanarny.",
+        "correct": true
+      },
+      {
+        "text": "Graf K4 jest nieplanarny.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z3",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące homeomorfizmu grafów.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Dwa grafy są homeomorficzne, jeżeli mogą być otrzymane z tego samego grafu przez wstawianie wierzchołków stopnia 2 na krawędziach.",
+        "correct": true
+      },
+      {
+        "text": "Dwa grafy są homeomorficzne wtedy i tylko wtedy, gdy mają tę samą liczbę wierzchołków.",
+        "correct": false
+      },
+      {
+        "text": "Pojęcie homeomorfizmu grafu wprowadził Kuratowski w celu badania planarności.",
+        "correct": true
+      },
+      {
+        "text": "Homeomorfizm grafów oznacza równość ich macierzy sąsiedztw.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z4",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące twierdzenia Kuratowskiego (1930).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Graf G jest planarny wtedy i tylko wtedy, gdy nie zawiera podgrafów homeomorficznych z K5 lub K3,3.",
+        "correct": true
+      },
+      {
+        "text": "Graf jest planarny wtedy i tylko wtedy, gdy zawiera K5 jako podgraf.",
+        "correct": false
+      },
+      {
+        "text": "Grafy homeomorficzne z grafem nieplanarnym również są nieplanarne.",
+        "correct": true
+      },
+      {
+        "text": "Graf jest planarny wtedy i tylko wtedy, gdy jest dwudzielny.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z5",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące ścian grafu płaskiego.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Każdy graf płaski dzieli płaszczyznę na rozłączne obszary, które nazywamy ścianami.",
+        "correct": true
+      },
+      {
+        "text": "Obszary, na które graf dzieli płaszczyznę, nazywamy komponentami spójności.",
+        "correct": false
+      },
+      {
+        "text": "Każdy graf płaski ma dokładnie jedną ścianę nieograniczoną (ścianę nieskończoną).",
+        "correct": true
+      },
+      {
+        "text": "Graf płaski nie ma ściany nieograniczonej.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z6",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące wzoru Eulera dla grafów płaskich.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jeżeli G jest spójnym grafem płaskim o n wierzchołkach, m krawędziach i f ścianach, to n−m+ f = 2.",
+        "correct": true
+      },
+      {
+        "text": "Dla każdego grafu (niezależnie od planarności i spójności) zachodzi n−m+f= 2.",
+        "correct": false
+      },
+      {
+        "text": "W przypadku f = 1 graf spójny płaski jest drzewem i ma m= n−1 krawędzi.",
+        "correct": true
+      },
+      {
+        "text": "Wzór Eulera dotyczy wyłącznie grafów pełnych.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z7",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące liczby krawędzi w prostym grafie planarnym.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jeżeli G jest spójnym, prostym grafem planarnym o n 3 wierzchołkach, to m 3n−6.",
+        "correct": true
+      },
+      {
+        "text": "Jeżeli G jest spójnym, prostym grafem planarnym o n 3, to m 3n−6.",
+        "correct": false
+      },
+      {
+        "text": "Dowód opiera się na wzorze Eulera i na tym, że granica każdej ściany jest cyklem o długości co najmniej 3.",
+        "correct": true
+      },
+      {
+        "text": "Jeżeli G jest planarny, to zawsze m= 3n−6.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z8",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące stopni wierzchołków w prostym grafie planarnym.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Każdy prosty graf planarny ma wierzchołek o stopniu co najwyżej 5.",
+        "correct": true
+      },
+      {
+        "text": "Każdy prosty graf planarny ma wszystkie wierzchołki stopnia co najmniej 6.",
+        "correct": false
+      },
+      {
+        "text": "Dowód wniosku opiera się na lemacie o uściskach dłoni i nierówności m 3n−6.",
+        "correct": true
+      },
+      {
+        "text": "Każdy graf planarny jest 5-regularny.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z9",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące rozkładania grafów na płaszczyźnie i sferze.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Rozkładanie grafów na płaszczyźnie jest równoważne z rozłożeniem grafu na sferze (poprzez rzut stereograficzny).",
+        "correct": true
+      },
+      {
+        "text": "Rzut stereograficzny odwzorowuje sferę na płaszczyznę w niejednoznaczny sposób.",
+        "correct": false
+      },
+      {
+        "text": "Każdy graf nieplanarny nie może być rozłożony bez przecięć na sferze.",
+        "correct": true
+      },
+      {
+        "text": "Grafy planarne można rozłożyć wyłącznie na płaszczyźnie, ale nie na sferze.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w6z13",
+    "week": "W6",
+    "weekLabel": "Wykład 6 – planarność",
+    "prompt": "Wskaż zdania prawdziwe dotyczące homeomorfizmu topologicznego obiektów.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Pączek i kubek są obiektami homeomorficznymi.",
+        "correct": true
+      },
+      {
+        "text": "Pączek i kubek nie są obiektami homeomorficznymi.",
+        "correct": false
+      },
+      {
+        "text": "Homeomorfizm obiektów oznacza, że można przekształcić jeden w drugi bez rozrywania i sklejania.",
+        "correct": true
+      },
+      {
+        "text": "Homeomorfizm topologiczny wymaga, aby oba obiekty miały identyczny kształt geometryczny.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z1",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące algorytmu Dijkstry.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Wymaga, by wagi na krawędziach były nieujemne.",
+        "correct": true
+      },
+      {
+        "text": "Wymaga, by wagi były wyłącznie całkowite i dodatnie.",
+        "correct": false
+      },
+      {
+        "text": "Wyznacza odległości od wybranego wierzchołka s do wszystkich pozostałych wierzchołków grafu.",
+        "correct": true
+      },
+      {
+        "text": "Graf musi posiadać zarówno wagi dodatnie, jak i ujemne.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z2",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące parametru σv w algorytmie Dijkstry.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Gdy v należy do zbioru Q, σv jest górnym ograniczeniem odległości od sdo v.",
+        "correct": true
+      },
+      {
+        "text": "Oznacza liczbę krawędzi incydentnych z wierzchołkiem v.",
+        "correct": false
+      },
+      {
+        "text": "Po przeniesieniu v do zbioru P wartość σv jest najkrótszą odległością z s do v.",
+        "correct": true
+      },
+      {
+        "text": "Wartość σv zawsze pozostaje równa zero do końca działania algorytmu.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z3",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące cyklu Eulera i grafu Eulera.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Grafem Eulera nazywamy graf, w którym istnieje cykl prosty zawierający wszystkie krawędzie grafu.",
+        "correct": true
+      },
+      {
+        "text": "Cykl Eulera to cykl elementarny zawierający wszystkie wierzchołki grafu.",
+        "correct": false
+      },
+      {
+        "text": "Spójny graf jest grafem Eulera wtedy i tylko wtedy, gdy każdy wierzchołek ma stopień parzysty.",
+        "correct": true
+      },
+      {
+        "text": "Cykl Eulera to cykl o najmniejszej możliwej sumie wag krawędzi.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z4",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące zasad algorytmu Fleury’ego.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Przez most przechodzimy wtedy i tylko wtedy, gdy nie ma innej możliwości ruchu.",
+        "correct": true
+      },
+      {
+        "text": "Mosty należy przechodzić w pierwszej kolejności, aby szybko zredukować liczbę krawędzi.",
+        "correct": false
+      },
+      {
+        "text": "Z grafu usuwamy przechodzone krawędzie oraz wierzchołki powstałe w wyniku usuwania krawędzi.",
+        "correct": true
+      },
+      {
+        "text": "Algorytm zakazuje przechodzenia przez mosty.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z5",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące grafu Hamiltona.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Grafem Hamiltona nazywamy graf, w którym istnieje cykl elementarny zawierający wszystkie wierzchołki.",
+        "correct": true
+      },
+      {
+        "text": "Grafem Hamiltona nazywamy graf zawierający cykl prosty obejmujący wszystkie krawędzie.",
+        "correct": false
+      },
+      {
+        "text": "Nie ma pełnej charakteryzacji grafów hamiltonowskich – znane są jedynie warunki wystarczające.",
+        "correct": true
+      },
+      {
+        "text": "W grafie Hamiltona każdy wierzchołek musi mieć stopień parzysty.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z6",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące wystarczających warunków hamiltonowskości prostego grafu n-wierzchołkowego (n ≥ 3).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Dla każdej pary niesąsiednich wierzchołków x,y zachodzi deg x+ deg y n.",
+        "correct": true
+      },
+      {
+        "text": "Dla każdej pary niesąsiednich wierzchołków x,y zachodzi deg x+ deg y n 2.",
+        "correct": false
+      },
+      {
+        "text": "Stopień każdego wierzchołka grafu jest większy niżn 2.",
+        "correct": true
+      },
+      {
+        "text": "Dla każdej pary wierzchołków zachodzi deg x·deg y= n.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z7",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące kodu Graya długości n.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Jego konstrukcję można sprowadzić do znalezienia cyklu Hamiltona w grafie n-kostki Qn.",
+        "correct": true
+      },
+      {
+        "text": "Sprowadza się do znalezienia cyklu Eulera w grafie pełnym Kn.",
+        "correct": false
+      },
+      {
+        "text": "Kolejne wyrazy ciągu oraz pierwszy i ostatni różnią się od siebie dokładnie jedną cyfrą.",
+        "correct": true
+      },
+      {
+        "text": "Polega na wyznaczeniu najkrótszej ścieżki w grafie dwudzielnym.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z8",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące grafu n-kostki Qn.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Krawędzią łączymy te ciągi zero-jedynkowe, które różnią się od siebie dokładnie jedną cyfrą.",
+        "correct": true
+      },
+      {
+        "text": "Krawędzią łączymy ciągi, w których suma cyfr jest liczbą parzystą.",
+        "correct": false
+      },
+      {
+        "text": "Zbiorem wierzchołków Qn jest zbiór wszystkich n-wyrazowych ciągów zerojedynkowych.",
+        "correct": true
+      },
+      {
+        "text": "Krawędzią łączymy ciągi różniące się na dokładnie dwóch pozycjach.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z9",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące ścieżki skoczka szachowego.",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Dla nieparzystego n nie istnieje zamknięta ścieżka skoczka na szachownicy n×n.",
+        "correct": true
+      },
+      {
+        "text": "Dla parzystego n ścieżka zamknięta na szachownicy n×n nie istnieje.",
+        "correct": false
+      },
+      {
+        "text": "Na szachownicy 4 ×n nie istnieje ani otwarta, ani zamknięta ścieżka skoczka.",
+        "correct": true
+      },
+      {
+        "text": "Ścieżka zamknięta skoczka istnieje wyłącznie na szachownicach o boku będącym liczbą pierwszą.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "w32z10",
+    "week": "W32",
+    "weekLabel": "Wykład 3b – Dijkstra, Hamilton, TSP",
+    "prompt": "Wskaż zdania prawdziwe dotyczące Problemu Komiwojażera (TSP).",
+    "pickFalse": false,
+    "choices": [
+      {
+        "text": "Sprowadza się do znalezienia cyklu Hamiltona o najmniejszej sumie wag krawędzi.",
+        "correct": true
+      },
+      {
+        "text": "Sprowadza się do znalezienia cyklu Eulera o największej sumie wag krawędzi.",
+        "correct": false
+      },
+      {
+        "text": "Należy do klasy problemów NP-trudnych.",
+        "correct": true
+      },
+      {
+        "text": "Można go zawsze rozwiązać algorytmem Dijkstry między ustalonymi miastami.",
+        "correct": false
+      }
+    ]
+  }
+]
