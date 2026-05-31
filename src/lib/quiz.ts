@@ -1,4 +1,5 @@
 import questionsData from "@/data/questions.json";
+import { filterQuestionsByLevel, type MasteryStore } from "./mastery";
 import type { Choice, Question, QuizSettings } from "./types";
 
 export const ALL_QUESTIONS = questionsData as Question[];
@@ -16,11 +17,27 @@ function shuffle<T>(arr: T[]): T[] {
   return copy;
 }
 
-export function pickQuestions(settings: QuizSettings): Question[] {
+export function pickQuestions(
+  settings: QuizSettings,
+  mastery?: MasteryStore
+): Question[] {
   let pool = ALL_QUESTIONS;
 
   if (settings.mode === "week" && settings.week) {
     pool = pool.filter((q) => q.week === settings.week);
+  }
+
+  if (settings.mode === "review") {
+    const min = settings.minLevel ?? 1;
+    const max = settings.maxLevel ?? 2;
+    const ids = filterQuestionsByLevel(
+      pool.map((q) => q.id),
+      min,
+      max,
+      mastery
+    );
+    const idSet = new Set(ids);
+    pool = pool.filter((q) => idSet.has(q.id));
   }
 
   const list = settings.shuffle ? shuffle(pool) : [...pool];

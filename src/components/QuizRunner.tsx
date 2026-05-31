@@ -1,7 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import type { Question } from "@/lib/types";
+import { useMemo, useRef, useState } from "react";
+import {
+  LEVEL_LABELS,
+  loadMastery,
+  recordAnswer,
+} from "@/lib/mastery";
+import type { Choice, Question } from "@/lib/types";
 import {
   expectedIndices,
   gradeAnswer,
@@ -13,19 +18,36 @@ type Props = {
   questions: Question[];
   onExit: () => void;
   onRestart: () => void;
+  onMasteryChange?: () => void;
 };
 
-export function QuizRunner({ questions, onExit, onRestart }: Props) {
+export function QuizRunner({
+  questions,
+  onExit,
+  onRestart,
+  onMasteryChange,
+}: Props) {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number[]>([]);
   const [revealed, setRevealed] = useState(false);
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
+  const [levelDelta, setLevelDelta] = useState<number | null>(null);
+  const [currentLevel, setCurrentLevel] = useState<number | null>(null);
+  const [lastCorrect, setLastCorrect] = useState<boolean | null>(null);
+  const shuffledChoices = useRef(new Map<string, Choice[]>());
 
   const q = useMemo(() => {
     const source = questions[index];
     if (!source) return null;
-    return { ...source, choices: shuffleChoices(source.choices) };
+
+    let choices = shuffledChoices.current.get(source.id);
+    if (!choices) {
+      choices = shuffleChoices(source.choices);
+      shuffledChoices.current.set(source.id, choices);
+    }
+
+    return { ...source, choices };
   }, [questions, index]);
 
   const progress = ((index + (revealed ? 1 : 0)) / questions.length) * 100;
@@ -46,6 +68,13 @@ export function QuizRunner({ questions, onExit, onRestart }: Props) {
     if (!q || revealed) return;
     const ok = gradeAnswer(q, selected);
     if (ok) setScore((s) => s + 1);
+    setLastCorrect(ok);
+
+    const result = recordAnswer(q.id, ok, loadMastery());
+    setCurrentLevel(result.level);
+    setLevelDelta(result.delta);
+    onMasteryChange?.();
+
     setRevealed(true);
   };
 
@@ -57,6 +86,9 @@ export function QuizRunner({ questions, onExit, onRestart }: Props) {
     setIndex((i) => i + 1);
     setSelected([]);
     setRevealed(false);
+    setLevelDelta(null);
+    setCurrentLevel(null);
+    setLastCorrect(null);
   };
 
   if (done) {
@@ -119,7 +151,7 @@ export function QuizRunner({ questions, onExit, onRestart }: Props) {
     return classes.join(" ");
   };
 
-  const isCorrect = revealed && gradeAnswer(q, selected);
+  const isCorrect = revealed && lastCorrect === true;
 
   return (
     <main className="app">
@@ -162,9 +194,25 @@ export function QuizRunner({ questions, onExit, onRestart }: Props) {
 
         {revealed && (
           <div className={`feedback ${isCorrect ? "ok" : "bad"}`}>
-            {isCorrect
-              ? "✓ Dobrze!"
-              : `✗ Poprawne: ${expected.map((i) => i + 1).join(" i ")}`}
+            <div>
+              {isCorrect
+                ? "✓ Dobrze!"
+                : `✗ Poprawne: ${expected.map((i) => i + 1).join(" i ")}`}
+            </div>
+            {currentLevel !== null && (
+              <div className="mastery-feedback">
+                Poziom: {currentLevel}/5 ({LEVEL_LABELS[currentLevel]})
+                {levelDelta !== null && levelDelta !== 0 && (
+                  <span
+                    className={
+                      levelDelta > 0 ? "mastery-delta up" : "mastery-delta down"
+                    }
+                  >
+                    {levelDelta > 0 ? ` +${levelDelta}` : ` ${levelDelta}`}
+                  </span>
+                )}
+              </div>
+            )}
           </div>
         )}
 
